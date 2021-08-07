@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><data>
+	<profile gameType="classic" livesCounter="3" scoreCounter="2" timeCounter="19"/>
+	<leaderboard>
+		<classic s0="125" s1="83" s2="61" s3="58" s4="45"/>
+		<arcade s0="1046" s1="650" s2="333" s3="222" s4="11"/>
+	</leaderboard>
+</data>
