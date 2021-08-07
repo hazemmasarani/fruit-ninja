@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Bloom?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="scenesControllers.LeaderBoard">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="700.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imageLibrary/backs/leader.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="374.0" layoutX="163.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imageLibrary/text/leader/cooltext324571481204790.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="84.0" fitWidth="207.0" layoutX="239.0" layoutY="31.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" scaleX="2.0">
+         <image>
+            <Image url="@../../imageLibrary/text/1RowShine.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="110.0" layoutX="296.0" layoutY="325.0" onMouseClicked="#back" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imageLibrary/text/leader/cooltext324570845745955.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="39.0" fitWidth="164.0" layoutX="293.0" layoutY="325.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imageLibrary/text/1RowShine.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="classicLabel" alignment="CENTER" layoutX="46.0" layoutY="102.0" prefHeight="49.0" prefWidth="299.0" text="CLASSIC" textFill="#774dff" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect></Label>
+      <Label fx:id="arcadeLabel" alignment="CENTER" layoutX="347.0" layoutY="102.0" prefHeight="49.0" prefWidth="312.0" text="ARCADE" textFill="#774dff" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <Label fx:id="classicChildLabel" alignment="CENTER" layoutX="46.0" layoutY="151.0" prefHeight="177.0" prefWidth="299.0" text="1. 200" textFill="#774dff">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <Label fx:id="arcadeChildLabel" alignment="CENTER" layoutX="354.0" layoutY="148.0" prefHeight="177.0" prefWidth="299.0" text="1. 200" textFill="#774dff">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <Label alignment="CENTER" layoutX="257.0" layoutY="182.0" prefHeight="49.0" prefWidth="208.0" rotate="90.0" text="                     " textFill="#774dff" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <Label alignment="CENTER" layoutX="263.0" layoutY="182.0" prefHeight="49.0" prefWidth="208.0" rotate="90.0" text="                     " textFill="#774dff" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+   </children>
+</AnchorPane>
